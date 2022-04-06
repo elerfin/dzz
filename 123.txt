@@ -1,3 +1,32 @@
 1234
 1234
 1234
+commit c5b33e553357b6d74f9b59d1d5ca0d594eaaf7f9 (HEAD -> main, origin/main)
+Author: Konstantin Sherenkov <konstantin.sherenkov@gmail.com>
+Date:   Wed Apr 6 22:48:06 2022 +0700
+
+    123
+PS C:\Users\ilya\dzz> git add 123.txt
+warning: LF will be replaced by CRLF in 123.txt.
+The file will have its original line endings in your working directory
+PS C:\Users\ilya\dzz> git commit -m "123123"
+[main 31bb6ca] 123123
+ 1 file changed, 2 insertions(+)
+PS C:\Users\ilya\dzz> git add 123.txt
+warning: LF will be replaced by CRLF in 123.txt.
+The file will have its original line endings in your working directory
+PS C:\Users\ilya\dzz> git commit -m "444"
+[main 4437e80] 444
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+PS C:\Users\ilya\dzz> git log
+commit 4437e8088078ea9313d6885b29fd881c7dbabeb6 (HEAD -> main)
+Author: Konstantin Sherenkov <konstantin.sherenkov@gmail.com>
+Date:   Wed Apr 6 22:59:42 2022 +0700
+
+    444
+
+commit 31bb6ca39aadf1c9b0b94a9e1910c84c6aba3fa6
+Author: Konstantin Sherenkov <konstantin.sherenkov@gmail.com>
+Date:   Wed Apr 6 22:59:13 2022 +0700
+
+    123123
